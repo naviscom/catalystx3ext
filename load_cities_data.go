@@ -13,7 +13,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Load_Traffic_Data(ctx *gin.Context) {
+func Load_City_Data(ctx *gin.Context) {
 	fileHeader, err := ctx.FormFile("file")
 	if err != nil {
 		ctx.Error(err)
